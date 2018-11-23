@@ -23,3 +23,5 @@ With Sensor: MQ135(Air Quality Sensor), DHT11 (Temperature,humidity)
 - Android(Java)
 
 - ThingSpeak( to Store sensor and equipment status data)
+
+- HTTP
