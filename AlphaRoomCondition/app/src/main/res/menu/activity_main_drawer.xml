@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Status" />
+    </group>
+
+    <item android:title="Visualizations">
+        <menu>
+            <item
+                android:id="@+id/nav_air_quality"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Air Quality" />
+            <item
+                android:id="@+id/nav_temperature"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Temperature" />
+            <item
+                android:id="@+id/nav_humidity"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Humidity" />
+            <item
+                android:id="@+id/nav_all_visualization"
+                android:icon="@drawable/ic_menu_send"
+                android:title="All" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,40 @@
+Show
+Air Quality: PPM
+temperature : C
+Humidity: %
+
+Detect Gas and Fire
+Show 
+
+Smoke, Fire, Purifier Status 
+
+Create Separate channel to Update
+Alert for Hardware like fire 
+
+Extinguisher: (On If Detect Fire)
+Air Purifier: (On If PPM Greate then threshold (100) wiht set limit)
+Air Vents: (Off In case of Fire and in case A/C On, with Manual Controls,On Incase of bad AQI)
+Air Exhaust Fan(Off In Case of Fire and in case A/C On, On Incase of bad AQI)
+Air Condition: (On Incase temperature >40 Degree with option to set value, Off in case of fire.)
+
+* in Case of Fire: PPM > 200 and Temperature above 80
+
+* in case of (AQI)PPM
+* Good (0–50)
+* Satisfactory (51–100)
+* Moderately polluted (101–200)
+* Poor (201–300)
+* Very poor (301–400)
+* Severe (401–500)
+
+Show A/C Status Over App but Enable/Disable it using App Only not by NodeMcu.
+
+Trigger Air Purifier When AQI reach threshold
+
+
+Make Action based on DateTime 
+
+--------------------------------------------------------------------------------------------------------------
+
+
+On Off Using Relay.
