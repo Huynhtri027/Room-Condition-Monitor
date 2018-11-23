@@ -17,7 +17,7 @@ Reading and Equipment Status are Shown on Android Device
 User can Switch On/Off Ac using Android Device.
 
 Tech Used
-- Arduino 
+- Arduino (#ESP8266 NodeMCU)
 With Sensor: MQ135(Air Quality Sensor), DHT11 (Temperature,humidity)
 
 - Android(Java)
